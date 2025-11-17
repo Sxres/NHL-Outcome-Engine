@@ -1,0 +1,21 @@
+git add . 
+
+git commit -m "initial commit - NHL logo classifier 
+/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (too large for GitHub)
+*.h5
+*.keras
+*.weights.h5
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
