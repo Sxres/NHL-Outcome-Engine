@@ -27,7 +27,7 @@ if st.button('Predict NHL Logo'):
         files = {'file': (input_image.name, input_image.getvalue(), input_image.type)}
         
         # Make POST request to your FastAPI backend
-        response = requests.post('http://backend:8080/predict', files=files)
+        response = requests.post('https://backend-765461223282.northamerica-northeast2.run.app/predict', files=files)
         
         if response.status_code == 200:
             prediction = response.json()
